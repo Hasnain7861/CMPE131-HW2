@@ -4,4 +4,4 @@ def reverse_list(aList):
         newList.append(aList[a])
     return newList
 
-# print(reverse_list([1,2,3,4]))
+print(reverse_list("HEY"))

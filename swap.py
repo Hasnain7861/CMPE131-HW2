@@ -6,13 +6,13 @@ def swap_list(aList):
         number = int((len(aList) - 1) / 2)
         size = len(aList) - 1
 
-        # temp = aList[number]
-        # aList[number] = aList[size]
-        # aList[size] = temp 
-        aList[number], aList[size] = aList[size], aList[number]  
+        temp = aList[number]
+        aList[number] = aList[size]
+        aList[size] = temp 
+        # aList[number], aList[size] = aList[size], aList[number]  
 
     return aList       
 
-hey = [35, 11, 54]
+hey = [1, True, 9, "‘Hi’", 3]
 
 print(swap_list(hey))
