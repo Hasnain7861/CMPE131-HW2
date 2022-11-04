@@ -1,0 +1,3 @@
+1.) The variable a does not get changed because we are passing a value. Integers are immutable.
+2.) The variable b did change to [33] because we are passing a reference.
+3.) Strings, tuple, and values are not mutable however dictionaries and lists are mutable. Thus when you pass by value in the case of scenario 1, there was a change. However, for scenario 2, there was a change because a reference was passed.
