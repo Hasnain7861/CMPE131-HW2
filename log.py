@@ -7,9 +7,3 @@ def timestamp(hi):
         hi()
     return inner
 
-@timestamp
-def hi():
-    print("hi")
-
-hi()
-
